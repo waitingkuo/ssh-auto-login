@@ -1,0 +1,12 @@
+A python script used to automatically generate RSA pri/pub key pair and install in the remote computer.
+
+Usage:
+
+We want to login 192.168.100.1 as willy
+
+xxx.xxx$ python ssh_auto_login.py
+Remote user: willy
+Remote host: 192.168.100.1
+And then enter your password twice, that's all.
+
+Next time when you have a ssh to this remote host as user willy, you should never the password.
